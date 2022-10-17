@@ -71,25 +71,25 @@ public class Main {
                 case 'f':
                     operand2 = Main.operand2();//вызываем метод для считывания второго операнда
                     int rezult = Main.summa(operand1, operand2);//вызываем метод для сложения двух операндов
-                    System.out.println("Результат сложения:" + rezult);// выводим результат
+                    System.out.println("Результат сложения: " + rezult);// выводим результат
                     operand1 = rezult;
                     break;
                 case 'r':
                     operand2 = Main.operand2();//вызываем метод для считывания второго операнда
                     rezult = Main.raznost(operand1, operand2);//вызываем метод для вычитания двух операндов
-                    System.out.println("Результат вычитания:" + rezult);// выводим результат
+                    System.out.println("Результат вычитания: " + rezult);// выводим результат
                     operand1 = rezult;
                     break;
                 case 'p':
                     operand2 = Main.operand2();//вызываем метод для считывания второго операнда
                     rezult = Main.proizved(operand1, operand2);//вызываем метод для произведения двух операндов
-                    System.out.println("Результат произведения:" + rezult);// выводим результат
+                    System.out.println("Результат произведения: " + rezult);// выводим результат
                     operand1 = rezult;
                     break;
                 case 'd':
                     operand2 = Main.operand2();//вызываем метод для считывания второго операнда
                     rezult = Main.delenie(operand1, operand2);//вызываем метод для деления двух операндов
-                    System.out.println("Результат деления:" + rezult);// выводим результат
+                    System.out.println("Результат деления: " + rezult);// выводим результат
                     operand1 = rezult;
                     break;
                 case 'C':
