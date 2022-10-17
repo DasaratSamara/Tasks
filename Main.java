@@ -77,13 +77,13 @@ public class Main {
                 case 'r':
                     operand2 = Main.operand2();//вызываем метод для считывания второго операнда
                     rezult = Main.raznost(operand1, operand2);//вызываем метод для вычитания двух операндов
-                    System.out.println("Результат вычитания: " + rezult);// выводим результат
+                    System.out.println("Результат вычитания:" + rezult);// выводим результат
                     operand1 = rezult;
                     break;
                 case 'p':
                     operand2 = Main.operand2();//вызываем метод для считывания второго операнда
                     rezult = Main.proizved(operand1, operand2);//вызываем метод для произведения двух операндов
-                    System.out.println("Результат произведения: " + rezult);// выводим результат
+                    System.out.println("Результат произведения:" + rezult);// выводим результат
                     operand1 = rezult;
                     break;
                 case 'd':
